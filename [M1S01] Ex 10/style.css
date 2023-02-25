@@ -1,0 +1,71 @@
+*{
+    margin: 5%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content:center;
+ 
+    
+}
+
+body{
+    background: linear-gradient(114deg, rgba(110,195,34,1) 52%, rgba(253,111,45,1) 100%);
+
+}
+ h4{
+    color: rgb(5, 68, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+ }
+
+ p{
+    color: rgb(5, 68, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    justify-content: center;
+ }
+
+ button{
+    color:rgb(228, 109, 12)
+ }
+
+.caixa {
+    width: 25%;
+    height: 400px;
+    background-color: rgb(214,219,140);
+    border: 1px solid rgb(214, 219, 140);
+    align-items: center;
+    border-radius: 95px;
+    text-align: center;
+    
+    
+}
+
+.caixa-1{
+    align-self: flex-start;
+}
+
+.caixa-2{
+    align-self:center;
+}
+
+.caixa-3{
+    align-self: flex-end;
+}   
+
+#foto{
+    width: 150px;
+    height: 200px;
+    border-radius: 98px;
+    box-shadow: 10px 5px 5px rgb(2, 37, 2);
+}

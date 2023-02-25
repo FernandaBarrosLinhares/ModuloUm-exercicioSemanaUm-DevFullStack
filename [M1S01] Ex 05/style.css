@@ -1,0 +1,37 @@
+img {
+    border-radius: 50%;
+    box-shadow: 3px 3px rgb(22, 22, 22), -1em 0 0.4em rgb(167, 167, 151);
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(122, 121, 65);
+    
+}
+
+strong {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(122, 121, 65);
+    
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30;
+    color: rgb(122, 121, 65);
+    
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: #1dcc25;
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1dcc25;
+}
+
+body{
+    background-color: rgb(9, 78, 30);
+}

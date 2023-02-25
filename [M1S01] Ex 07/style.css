@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content:center;
+    
+}
+
+.caixa {
+    width: 25%;
+    height: 400px;
+    background-color: blueviolet;
+    border: 1px solid chocolate;
+    align-items: center;
+    
+}
+
+.caixa-1{
+    align-self: flex-start;
+}
+
+.caixa-2{
+    align-self:center;
+}
+
+.caixa-3{
+    align-self: flex-end;
+}   
+
+#foto{
+    width: 150px;
+    height: 200px;
+}
